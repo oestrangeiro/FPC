@@ -33,8 +33,8 @@ int main(){
 	printf("\n>> NÚMERO INFORMADO: %.2lf\n", num);
 	printf(">> NÚMERO INFORMADO AO QUADRADO: %.2lf\n", pow(num, 2));
 	printf(">> NÚMERO INFORMADO AO CUBO: %.2lf\n", pow(num, 3));
-	printf(">> RAÍZ QUADRADA DO NÚMERO INFORMADO: %.2lf\n", num);
-	printf(">> RAÍZ CÚBICA DO NÚMERO INFORMADO: %.2lf\n", num);
+	printf(">> RAÍZ QUADRADA DO NÚMERO INFORMADO: %.2lf\n", sqrt(num));
+	printf(">> RAÍZ CÚBICA DO NÚMERO INFORMADO: %.2lf\n", cbrt(num));
 	
 
 	
